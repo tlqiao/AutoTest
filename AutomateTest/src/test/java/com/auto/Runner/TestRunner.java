@@ -14,9 +14,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(Cucumber.class)
 @Cucumber.Options(features = {"src/test/resources/Features"},
-		glue = {"com.auto.Steps"},
+		glue = {"com.auto.Steps"}
 //		tags={"@test"},
-		format = {"html:cucumbers"}
+		
 ////			dryRun = false,
 //		monochrome = true
 //			format={"pretty"})
