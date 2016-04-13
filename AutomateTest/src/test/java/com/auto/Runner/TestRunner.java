@@ -14,7 +14,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RunWith(Cucumber.class)
 @Cucumber.Options(features = {"src/test/resources/Features"},
-		glue = {"com.auto.Steps"}
+		glue = {"com.auto.Steps"},
+		format = {"json:cucumber/result.json"}
 //		tags={"@test"},
 		
 ////			dryRun = false,
